@@ -6,7 +6,6 @@ Don't change this file
 import com.thoughtworks.FizzBuzzGame;
 import org.junit.Test;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.List;
 
