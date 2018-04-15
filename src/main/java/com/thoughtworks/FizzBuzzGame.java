@@ -18,7 +18,7 @@ public class FizzBuzzGame {
         return results;
     }
 
-    String isHave3or5or7(int i) {
+    String isHave3(int i) {
         String string = String.valueOf(i);
         char[] chars = string.toCharArray();
         for (int j = 0; j < string.length(); j++) {
@@ -54,7 +54,7 @@ public class FizzBuzzGame {
 
     String reportNumber(int test) {
         StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append(isHave3or5or7(test));
+        stringBuilder.append(isHave3(test));
         if (stringBuilder.length() == 0) {
             stringBuilder
                     .append(isMultiple3(test))

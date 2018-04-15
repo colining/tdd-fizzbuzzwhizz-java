@@ -15,13 +15,13 @@ public class FizzBuzzGameTest {
     @Test
     public void should_return_Fizz_when_have_3() {
         int test = 13;
-        Assert.assertEquals("Fizz", fizzBuzzGame.isHave3or5or7(test));
+        Assert.assertEquals("Fizz", fizzBuzzGame.isHave3(test));
         test = 31;
-        Assert.assertEquals("Fizz", fizzBuzzGame.isHave3or5or7(test));
+        Assert.assertEquals("Fizz", fizzBuzzGame.isHave3(test));
         test = 25;
-        Assert.assertEquals("Buzz", fizzBuzzGame.isHave3or5or7(test));
+        Assert.assertEquals("Buzz", fizzBuzzGame.isHave3(test));
         test = 16;
-        Assert.assertEquals("", fizzBuzzGame.isHave3or5or7(test));
+        Assert.assertEquals("", fizzBuzzGame.isHave3(test));
     }
 
     @Test
