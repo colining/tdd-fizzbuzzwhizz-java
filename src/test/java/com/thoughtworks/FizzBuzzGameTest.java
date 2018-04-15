@@ -19,7 +19,7 @@ public class FizzBuzzGameTest {
         test = 31;
         Assert.assertEquals("Fizz", fizzBuzzGame.isHave3(test));
         test = 25;
-        Assert.assertEquals("Buzz", fizzBuzzGame.isHave3(test));
+        Assert.assertEquals("", fizzBuzzGame.isHave3(test));
         test = 16;
         Assert.assertEquals("", fizzBuzzGame.isHave3(test));
     }
@@ -59,7 +59,7 @@ public class FizzBuzzGameTest {
         test = 30;
         Assert.assertEquals("Fizz",fizzBuzzGame.reportNumber(test));
         test = 70;
-        Assert.assertEquals("Whizz",fizzBuzzGame.reportNumber(test));
+        Assert.assertEquals("BuzzWhizz",fizzBuzzGame.reportNumber(test));
         test = 35;
         Assert.assertEquals("Fizz",fizzBuzzGame.reportNumber(test));
     }
